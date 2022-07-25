@@ -1,7 +1,7 @@
 ## Overview
 
-This tooling automates the process of creating the code coverage reports, both machine readable and human readable.
-Tooling can be used for c# test projects that use xUnit.
+This tool automates the process of creating the code coverage reports, both machine readable and human readable.
+Tool can be used for c# test projects that use xUnit.
 
 - Json file *coverage* will be generated. Human unreadable. 
 - TestResults folder with xml file *coverage.cobertura*. Human unreadable.
@@ -28,7 +28,7 @@ reportgenerator tool
 > dotnet pack
 > dotnet tool install --global --add-source ./NuGetPackage CodeCoverageBuilder
 
-## How to use the tooling?
+## How to use the ccb?
 
 - Open PowerShell
 - Navigate to the test project 
